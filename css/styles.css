@@ -1,8 +1,2 @@
-@import url(home.css);
-@import url(albums.css);
-@import url(contact.css);
-@import url(films.css);
-@import url(gallery.css);
+@import url(bootstrap.min.css);
 @import url(main.css);
-@import url(packages.css);
-@import url(services.css);
