@@ -1,5 +1,39 @@
 @import url(bootstrap.min.css);
 @import url(main.css);
+:root {
+  --red: rgb(216, 8, 8);
+  --services: #f2f5f8;
+  --recent: #f2f4f8;
+  --footer: rgb(61, 63, 62);
+  --copyright: rgb(44, 46, 46);
+  --font: #a2a2a2;
+  --main: hsl(49, 100%, 97%);
+}
+body {
+  background: var(--main);
+}
+footer a {
+  color: var(--font);
+}
+a:hover {
+  color: var(--red);
+  text-decoration: none;
+}
 img {
   width: 100%;
+}
+.navbar {
+  background: hsla(49, 100%, 97%, 0.7);
+}
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+  color: var(--red);
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  background-color: var(--footer);
+}
+.copyright {
+  background-color: var(--copyright);
 }

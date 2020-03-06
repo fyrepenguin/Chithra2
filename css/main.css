@@ -1,0 +1,47 @@
+@import url(animations.css);
+
+.hide {
+  display: none;
+}
+
+.carousel-caption {
+  top: 50%;
+  bottom: initial;
+  transform: translateY(-50%);
+}
+.carousel h5 {
+  font-size: 3rem;
+}
+.carousel p {
+  font-size: 1.5rem;
+  display: none;
+}
+.services {
+  padding-top: 4rem;
+}
+h3 {
+  padding: 2rem;
+}
+hr {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  width: 3.5rem;
+  border-top: 2px solid black;
+}
+.services a,
+a.get-in-touch {
+  display: inline-block;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 0.75rem 2.5rem;
+  color: black;
+}
+.services a:hover,
+a.get-in-touch:hover {
+  background: var(--red);
+  color: white;
+  border-color: white;
+}
+.get-in-touch {
+  margin-top: 2rem;
+}

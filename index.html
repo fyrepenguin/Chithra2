@@ -11,7 +11,7 @@
     <title>Chithra Studios</title>
   </head>
   <body>
-    <!--  <div class="preload">
+    <div class="preload hide">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 773.04 1000"
@@ -46,56 +46,58 @@
           </g>
         </g>
       </svg>
-    </div> -->
+    </div>
     <div class="content">
       <header>
         <nav
-          class="navbar navbar-expand-lg navbar-light bg-light justify-content-between px-5"
+          class="navbar navbar-expand-lg navbar-light justify-content-between fixed-top px-5"
         >
-          <a href="#" class="navbar-brand"
-            ><img
-              src="images/chithra-logo.svg"
-              alt="logo"
-              width="auto"
-              height="100px"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse flex-grow-0"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav text-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="albums.html">Albums</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="films.html">Films</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+          <div class="container">
+            <a href="#" class="navbar-brand"
+              ><img
+                src="images/chithra-logo.svg"
+                alt="logo"
+                width="auto"
+                height="100px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse flex-grow-0"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="albums.html">Albums</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="films.html">Films</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <div
@@ -120,7 +122,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h5>Bhasker & Kavitha</h5>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -133,7 +135,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>Ashok & Swetha</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
@@ -144,7 +146,7 @@
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5>Prasad & Latha</h5>
                 <p>
                   Praesent commodo cursus magna, vel scelerisque nisl
                   consectetur.
@@ -174,6 +176,7 @@
       </header>
       <section class="services container-fluid">
         <h3 class="text-center">Services</h3>
+        <hr />
         <div class="service row align-items-center">
           <div class="col-md-6 p-0">
             <img
@@ -183,7 +186,7 @@
             />
           </div>
           <div class="col-md-6 p-lg-5 mx-auto text-center">
-            <h3>Candid</h3>
+            <h4>Candid</h4>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
               commodi, cumque praesentium ipsum quis porro voluptatum ea dolore
@@ -202,7 +205,7 @@
             />
           </div>
           <div class="col-md-6 p-lg-5 mx-auto order-md-1 text-center">
-            <h3>Pre-wedding</h3>
+            <h4>Pre-wedding</h4>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
               commodi, cumque praesentium ipsum quis porro voluptatum ea dolore
@@ -221,7 +224,7 @@
             />
           </div>
           <div class="col-md-6 p-lg-5 mx-auto text-center">
-            <h3>Wedding</h3>
+            <h4>Wedding</h4>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
               commodi, cumque praesentium ipsum quis porro voluptatum ea dolore
@@ -233,7 +236,8 @@
         </div>
       </section>
       <section class="recent container-fluid p-5">
-        <h2 class="text-center">Recent Projects</h2>
+        <h3 class="text-center">Recent Projects</h3>
+        <hr />
         <div class="row">
           <div class="col-6 col-md my-3">
             <div class="overlay"></div>
@@ -282,6 +286,7 @@
       </section>
       <section class="team container ">
         <h3 class="text-center">Meet the team</h3>
+        <hr />
         <div class="row text-center">
           <div class="col-12 col-md-6 align-self-center">
             <h4>Babji Raj</h4>
@@ -304,6 +309,7 @@
       </section>
       <section class="contact container">
         <h3 class="text-center">Contact Us</h3>
+        <hr />
         <div class="row">
           <div class=" col-12 col-lg-6">
             <iframe
@@ -328,7 +334,7 @@
               Email:
               <a href="mailto:abc@gmail.com">abc@gmail.com</a>
             </div>
-            <a href="#" class="">Get in Touch</a>
+            <a href="#" class="get-in-touch">Get in Touch</a>
           </div>
         </div>
       </section>
@@ -362,6 +368,7 @@
         </div>
       </footer>
     </div>
+    <!--     <script src="js/script.js"></script>-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

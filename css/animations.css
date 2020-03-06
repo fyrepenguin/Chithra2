@@ -1,23 +1,46 @@
-div {
+.preload {
   display: flex;
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
 }
 
-svg {
-  height: 900px;
-  width: auto;
+.prelaod svg {
+  height: auto;
+  width: 100vmin;
   margin: 0 auto;
 }
-
+#left-arm {
+  stroke-dasharray: 1580;
+  stroke-dashoffset: 1580;
+}
+#right-arm {
+  stroke-dasharray: 1579;
+  stroke-dashoffset: 1579;
+}
+#stand {
+  stroke-dasharray: 3406;
+  stroke-dashoffset: 3406;
+}
+#flash {
+  stroke-dasharray: 397;
+  stroke-dashoffset: 397;
+}
+#c {
+  stroke-dasharray: 977;
+  stroke-dashoffset: 977;
+}
+#s {
+  stroke-dasharray: 2999;
+  stroke-dashoffset: 2999;
+}
 #left-arm,
 #right-arm,
 #stand,
 #flash {
   stroke: black;
   fill: transparent;
-  stroke-dasharray: 3420;
-  stroke-dashoffset: 3420;
-  animation: dash 4s ease-out forwards 3s, fill 3s ease-in forwards 6s;
+  animation: dash 3s linear forwards, fill 1s ease-in forwards 3s;
 }
 
 @keyframes dash {
@@ -36,10 +59,7 @@ svg {
 #c {
   fill: transparent;
   stroke: black;
-
-  stroke-dasharray: 3420;
-  stroke-dashoffset: 3420;
-  animation: dash 4s ease-in-out forwards 3s, c 3s ease-in forwards 6s;
+  animation: dash 3s linear forwards, c 1s ease-in forwards 3s;
 }
 @keyframes c {
   to {
@@ -51,9 +71,7 @@ svg {
 #s {
   fill: transparent;
   stroke: black;
-  stroke-dasharray: 3420;
-  stroke-dashoffset: 3420;
-  animation: dash 4s ease-in-out forwards 3s, s 3s ease-in forwards 6s;
+  animation: dash 3s linear forwards, s 1s ease-in forwards 3s;
 }
 @keyframes s {
   to {
