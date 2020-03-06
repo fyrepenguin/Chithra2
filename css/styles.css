@@ -1,5 +1,4 @@
 @import url(bootstrap.min.css);
-@import url(main.css);
 :root {
   --red: rgb(216, 8, 8);
   --services: #f2f5f8;
@@ -31,9 +30,37 @@ img {
 ul {
   list-style-type: none;
 }
+hr {
+  margin-top: 0.75rem;
+  margin-bottom: 2.5rem;
+  width: 3.5rem;
+  border-top: 2px solid black;
+}
+/* FOOTER */
 footer {
   background-color: var(--footer);
+  color: var(--font);
 }
+.social-links {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+.social-links a {
+  color: white;
+  display: inline-block;
+  margin: 0.325rem;
+  border: 1px solid;
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.875rem;
+  border-radius: 50%;
+  font-size: 0.875rem;
+}
+
 .copyright {
   background-color: var(--copyright);
+  padding: 1em;
+}
+.copyright p {
+  margin: 0;
 }
