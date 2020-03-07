@@ -52,6 +52,15 @@ img {
 ul {
   list-style-type: none;
 }
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+h3 {
+  padding: 2rem;
+}
+
 hr {
   margin-top: 0.75rem;
   margin-bottom: 2.5rem;
@@ -86,4 +95,10 @@ footer {
 .copyright p {
   margin: 0;
   font-size: 0.75rem;
+}
+.pages li {
+  margin-bottom: 0.5rem;
+}
+.footer-contact div {
+  margin-bottom: 0.5rem;
 }

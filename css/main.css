@@ -19,14 +19,6 @@
 }
 
 /* SERVICES */
-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-h3 {
-  padding: 2rem;
-}
 
 .services {
   background-color: var(--services);
@@ -115,9 +107,6 @@ a.get-in-touch:hover {
 }
 
 /* CONTACT */
-.get-in-touch {
-  margin-top: 2rem;
-}
 .contact {
   background: var(--recent);
 }
