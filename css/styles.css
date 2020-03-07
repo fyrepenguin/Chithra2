@@ -1,4 +1,5 @@
 @import url(bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css?family=Parisienne|Roboto:400,700|Sacramento&display=swap");
 :root {
   --red: rgb(216, 8, 8);
   --services: #f2f5f8;
@@ -10,6 +11,22 @@
 }
 body {
   background: var(--main);
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Parisienne", cursive;
+}
+
+h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 3.5rem;
+}
+h4 {
+  font-size: 2.5rem;
 }
 footer a {
   color: var(--font);
@@ -21,8 +38,13 @@ a:hover {
 img {
   width: 100%;
 }
-.navbar {
+.navbar-lt {
   background: hsla(49, 100%, 97%, 0.7);
+}
+.navbar-op {
+  /*   background: hsla(49, 100%, 97%, 1);
+ */
+  background: white;
 }
 .navbar .navbar-nav .nav-item a.nav-link:hover {
   color: var(--red);
@@ -63,4 +85,5 @@ footer {
 }
 .copyright p {
   margin: 0;
+  font-size: 0.75rem;
 }
