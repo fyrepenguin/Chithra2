@@ -1,7 +1,12 @@
-.service p {
-  padding: 0 5rem;
-  text-align: left;
-}
 .services {
+  padding-top: 0;
   padding-bottom: 0;
+}
+.service p {
+  padding: 1rem 2rem;
+}
+@media screen and (min-width: 576px) {
+  .service p {
+    padding: 0 5rem;
+  }
 }
