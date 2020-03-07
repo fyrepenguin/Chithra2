@@ -12,7 +12,7 @@
 }
 
 .carousel h5 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .carousel p {
@@ -55,53 +55,8 @@ a.get-in-touch:hover {
   opacity: 1;
 }
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #1acccc;
-  padding: 0;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  backface-visibility: hidden;
+  display: none;
 }
-.overlay::before {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
-  content: "";
-  opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: scale3d(1.4, 1.4, 1);
-}
-.overlay .overlay-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: transform 0.35s;
-}
-
-.img-container:hover .overlay {
-  opacity: 0.65;
-}
-.img-container:hover .overlay-title {
-  transform: translate(-50%, -50%);
-}
-.img-container:hover .overlay::before,
-.img-container:hover .overlay-text {
-  opacity: 1;
-  transform: scale3d(1, 1, 1);
-}
-
 /* TEAM */
 
 .team img {
@@ -112,6 +67,63 @@ a.get-in-touch:hover {
 .contact {
   background: var(--recent);
 }
-.contact-info {
-  padding: 0 6rem;
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+  .carousel h5 {
+    font-size: 5rem;
+  }
+  .overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #1acccc;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    backface-visibility: hidden;
+  }
+  .overlay::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+    content: "";
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale3d(1.4, 1.4, 1);
+  }
+  .overlay .overlay-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform 0.35s;
+  }
+  .img-container:hover .overlay {
+    opacity: 0.65;
+  }
+  .img-container:hover .overlay-title {
+    transform: translate(-50%, -50%);
+  }
+  .img-container:hover .overlay::before,
+  .img-container:hover .overlay-text {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+  .contact-info {
+    padding: 0 6rem;
+  }
+}
+@media screen and (min-width: 992px) {
 }

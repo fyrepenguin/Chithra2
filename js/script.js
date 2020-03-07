@@ -1,4 +1,4 @@
-document.onreadystatechange = function() {
+/* document.onreadystatechange = function() {
   if (document.readyState !== "complete") {
     document.querySelector(".content").classList.add("hide");
   } else {
@@ -10,7 +10,7 @@ function showPage() {
   document.querySelector(".preload").classList.add("hide");
   document.querySelector(".content").classList.remove("hide");
 }
-
+ */
 window.onscroll = function() {
   scrollFunction();
 };
