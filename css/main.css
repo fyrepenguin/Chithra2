@@ -68,8 +68,6 @@ a.get-in-touch:hover {
   background: var(--recent);
 }
 
-@media screen and (min-width: 576px) {
-}
 @media screen and (min-width: 768px) {
   .carousel h5 {
     font-size: 5rem;
@@ -124,6 +122,4 @@ a.get-in-touch:hover {
   .contact-info {
     padding: 0 6rem;
   }
-}
-@media screen and (min-width: 992px) {
 }

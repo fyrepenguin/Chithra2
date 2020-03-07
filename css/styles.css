@@ -43,8 +43,6 @@ img {
   background: hsla(49, 100%, 97%, 0.7);
 }
 .navbar-op {
-  /*   background: hsla(49, 100%, 97%, 1);
- */
   background: white;
 }
 .navbar .navbar-nav .nav-item a.nav-link:hover {
