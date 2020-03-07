@@ -3,7 +3,7 @@ document.onreadystatechange = function() {
     document.querySelector(".content").classList.add("hide");
   } else {
     console.log("page loaded");
-    setTimeout(showPage, 500);
+    setTimeout(showPage, 4250);
   }
 };
 function showPage() {
