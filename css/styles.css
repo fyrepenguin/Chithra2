@@ -72,6 +72,9 @@ footer {
   background-color: var(--footer);
   color: var(--font);
 }
+footer h6 {
+  font-size: 2rem;
+}
 .social-links {
   text-align: center;
   margin-top: 1.8rem;
@@ -87,7 +90,6 @@ footer {
   border-radius: 50%;
   font-size: 0.875rem;
 }
-
 .copyright {
   background-color: var(--copyright);
   padding: 1em;

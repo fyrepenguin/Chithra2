@@ -10,9 +10,11 @@
   bottom: initial;
   transform: translateY(-50%);
 }
+
 .carousel h5 {
   font-size: 5rem;
 }
+
 .carousel p {
   font-size: 1.5rem;
   display: none;
