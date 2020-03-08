@@ -36,6 +36,13 @@ a:hover {
   color: var(--red);
   text-decoration: none;
 }
+nav img {
+  width: auto;
+}
+.navbar-brand p {
+  font-size: 2rem;
+  font-family: "Sacramento", cursive;
+}
 img {
   width: 100%;
 }
@@ -105,6 +112,9 @@ footer h6 {
   }
 }
 @media screen and (min-width: 576px) {
+  .navbar p {
+    font-size: 3rem;
+  }
   .carousel {
     margin-top: 5rem;
   }

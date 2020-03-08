@@ -84,6 +84,7 @@ a.get-in-touch:hover {
     opacity: 0;
     transition: 0.5s ease;
     background-color: #1acccc;
+    /*     background-color: rgba(216, 8, 8, 1); */
     padding: 0;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -109,7 +110,7 @@ a.get-in-touch:hover {
     transition: transform 0.35s;
   }
   .img-container:hover .overlay {
-    opacity: 0.65;
+    opacity: 0.7;
   }
   .img-container:hover .overlay-title {
     transform: translate(-50%, -50%);
