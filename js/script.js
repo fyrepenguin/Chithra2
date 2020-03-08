@@ -2,7 +2,6 @@ document.onreadystatechange = function() {
   if (document.readyState !== "complete") {
     document.querySelector(".content").classList.add("hide");
   } else {
-    console.log("page loaded");
     setTimeout(showPage, 4250);
   }
 };

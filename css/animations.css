@@ -61,12 +61,17 @@
 #c {
   fill: transparent;
   stroke: black;
-  animation: dash 3s linear forwards, c 1s ease-in forwards 3s;
+  animation: dash 3s linear forwards, cStroke 1s ease-in 3s forwards,
+    c 1.25s ease-in 3s infinite alternate;
+}
+@keyframes cStroke {
+  to {
+    stroke: transparent;
+  }
 }
 @keyframes c {
   to {
     fill: #ffc885;
-    stroke: transparent;
   }
 }
 
