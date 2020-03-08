@@ -1,4 +1,4 @@
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 992px) {
   .col-3-5 {
     flex: 0 0 30%;
     max-width: 30%;
